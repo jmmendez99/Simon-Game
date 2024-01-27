@@ -23,7 +23,7 @@ $(".btn").click(function () {
   checkAnswer(userClickedPattern.length - 1);
 });
 
-// Starts gets random color, show user the color, start game
+// Gets random color, show user the color, start game
 function nextSequence() {
   userClickedPattern = [];
 
